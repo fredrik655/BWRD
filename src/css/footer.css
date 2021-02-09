@@ -1,0 +1,72 @@
+
+
+footer {
+  color: white;
+  font-size: 13px;
+}
+
+#footer-legal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-icon {
+  margin: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  border: 2px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icon > i {
+  display: block;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
+  width: 16px;
+  height: 16px;
+}
+
+.footer-icon:hover {
+  background-color: black;
+}
+
+#footer-item-1 {
+  background-position: -272px -272px;
+}
+
+#footer-item-2 {
+  background-position: -1024px -1024px;
+}
+
+#footer-item-3 {
+  background-position: -1280px -1280px;
+}
+
+#footer-item-4 {
+  background-position: -416px -416px;
+}
+
+#footer-item-5 {
+  background-position: -672px -672px;
+}
+
+#footer-item-6 {
+  background-position: -816px -816px;
+}
+
+#footer-item-7 {
+  background-position: -576px -576px;
+}
